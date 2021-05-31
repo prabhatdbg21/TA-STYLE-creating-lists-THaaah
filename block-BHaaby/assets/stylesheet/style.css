@@ -68,7 +68,7 @@ body{
 /* header */
 header{
     background-color: #f96115;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 .header-nav-ul{
     justify-content: left;
@@ -77,6 +77,7 @@ header{
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    font-size: 30px;
 }
 .none{
     list-style-type: none;
@@ -90,11 +91,12 @@ section{
     padding: 40px 160px;
 }
 .box{
-    width: 32%;
+    width: 31%;
     background-color: #005979;
     padding: 0px;
     color: white;
     line-height: 2;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 }
 .box1, .box2, .box3{
     align-self: stretch;
@@ -107,6 +109,9 @@ section{
     list-style-image: url(../media/Tick\ 10px.jpg);
 }
 /* section 2 */
+dl{
+    padding-bottom: 20px;
+}
 h1{
     font-size: 30px;
     margin: 20px 0 10px 0;
@@ -115,11 +120,15 @@ h1{
     margin-left: 50px;
 }
 .dummy {
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 /* footer */
 footer{
     background-color: #252c22;
     padding: 20px 0;
+}
+dt{
+    font-size: 30px;
+    margin: 20px 0 10px;
 }
